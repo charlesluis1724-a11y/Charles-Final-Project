@@ -27,19 +27,27 @@ body {
     display: flex;
     background-color: #171717;
     color: #c8ff00;
-    padding: 0px;
+    padding: 30px;
     border-bottom: 1px solid #c8ff00;
     height: 100px;
 }
 
+
 .accidental-selector {
     margin-left: 50px;
+    width: 50px;
 }
 .number-of-frets {
-    margin-left: 50px;
+    width: 150px;
 }
 label {
-    margin: 0 20px;
+    margin: 0 0px;
+    width: 200px;
+}
+label.number-of-frets, #number-of-frets, .show-all-notes {
+    margin: 0 50px;
+    width: 100px !important;
+    
 }
 
 
