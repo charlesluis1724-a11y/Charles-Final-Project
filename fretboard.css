@@ -63,9 +63,9 @@ label.number-of-frets, #number-of-frets, .show-all-notes {
     left: 0px;
     flex-direction: column;
     background-color: rgb(28, 28, 27);
-    background-image: url(./images/istockphoto-1164419333-612x612.jpg);
+    background-image: url(./images1/istockphoto-1164419333-612x612.jpg);
     height: calc(var(--fretboard-height) * 1px) ;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: fixed;
     width: 3166px;
     margin-top: 20px;
